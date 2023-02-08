@@ -1,10 +1,63 @@
 body{
     text-align: center;
     font-family: "Helvetica", sans-serif; 
+    background-color: black;
+ 
 }
 
 h1{
+    font-size: 3rem;
+    font-weight: bold;
+   
+}
+h3{
     font-size: 2rem;
+    font-weight: bold;
 }
 
+a{
+    padding: 0 10px; 
+    color: white;
+    text-decoration: none;
+}
+
+/* Title Section */
+
+.custom-navbar{
+    background-color:black;
+    font-family: "Helvetica", sans-serif;
+    font-weight:bold; 
+}
+
+.nav-text{
+    color: white;
+
+}
+
+.nav-text:hover{
+    color:white;
+}
+
+
+.title-image{
+    position: relative; 
+    height: 550px;
+    width: 100%; 
+}
+
+.title-text{
+    position:absolute;
+    text-align: center;
+    top:25%;
+    left: 25%;
+}
+
+.link-btn{
+    margin: 15px 10px; 
+}
+
+.container-fluid{
+    margin:0;
+    width: 100%;
+}
 

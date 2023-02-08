@@ -1,14 +1,17 @@
 body{
+    background-color: #C0EEE4;
     font-family: "Helvetica", sans-serif;
     text-align: center;
 }
 
 img{
+    margin: 3% 0;
     position:relative;
     height: 200px;
     width: auto;
 }
 
-.row{
-    margin: 7% 15%;
+.top-section{
+    width: 60%;
 }
+
